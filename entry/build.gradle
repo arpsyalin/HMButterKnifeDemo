@@ -1,0 +1,15 @@
+apply plugin: 'com.huawei.ohos.hap'
+ohos {
+    compileSdkVersion 3
+    defaultConfig {
+        compatibleSdkVersion 3
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    testCompile'junit:junit:4.12'
+    implementation project(path: ':butterknife_annotations')
+    implementation project(path: ':butterknife')
+    annotationProcessor project(path: ':butterknife_compiler')
+}

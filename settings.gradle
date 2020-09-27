@@ -1,0 +1,1 @@
+include ':entry', ':butterknife_annotations', ':butterknife', ':butterknife_compiler'

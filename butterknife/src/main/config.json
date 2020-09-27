@@ -1,0 +1,27 @@
+{
+  "app": {
+    "bundleName": "com.lyl.test",
+    "vendor": "lyl",
+    "version": {
+      "code": 1,
+      "name": "1.0"
+    },
+    "apiVersion": {
+      "compatible": 3,
+      "target": 3
+    }
+  },
+  "deviceConfig": {
+  },
+  "module": {
+    "package": "com.lyl.butterknife",
+    "deviceType": [
+      "tv"
+    ],
+    "distro": {
+      "deliveryWithInstall": true,
+      "moduleName": "butterknife",
+      "moduleType": "har"
+    }
+  }
+}
